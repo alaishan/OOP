@@ -87,7 +87,3 @@ patient1.medical_aid_claim(6, 7, 8, 4, 40)
 patient2 = Cardiologist(8500, 20, 50)
 patient2.hospital_benefit(12000, 600, 400, 340, 0, 20, 50)
 
-
-
-
-
