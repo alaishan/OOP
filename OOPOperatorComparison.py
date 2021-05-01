@@ -40,8 +40,24 @@ class Customers:
         print("__eq__ is called")
         #Returns Boolean (True/False)
         return print((self.id == other.id) and (self.name == other.name))
-
+    def __ne__(self, other): #not equal to
+        print("__ne__ is called")
+        return print((self.id != other.id) and (self.name != other.name))
+    def __ge__(self, other): #greater than or equal
+        print("__ge__ is called")
+        return print((self.id >= other.id) and (self.name >= other.name))
+    def __le__(self, other): #less than or equal
+        print("__le__ is called")
+        return print((self.id <= other.id) and (self.name <= other.name))
+    def __gt__(self, other): #greater than
+        print("__gt__ is called")
+        return print((self.id > other.id) 
+    def __lt__(self, other): #less than
+        print("__lt__ is called")
+        return print((self.id < other.id) 
+    
 customer1 = Customers(123, "Maryam Azar")
 customer2 = Customers(123, "Maryam Azar")
 
 customer1 == customer2 #returns true
+customer1 != customer2
