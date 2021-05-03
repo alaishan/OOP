@@ -51,10 +51,10 @@ class Customers:
         return print((self.id <= other.id) and (self.name <= other.name))
     def __gt__(self, other): #greater than
         print("__gt__ is called")
-        return print((self.id > other.id) 
-    def __lt__(self, other): #less than
-        print("__lt__ is called")
-        return print((self.id < other.id) 
+        return print((self.id > other.id)) 
+    def __lt__(self, other):
+        print("__lt__ is called") 
+        return print((self.id < other.id)) 
     
 customer1 = Customers(123, "Maryam Azar")
 customer2 = Customers(123, "Maryam Azar")
