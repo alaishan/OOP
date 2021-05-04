@@ -42,7 +42,7 @@ print(cust)
 #            balance: 3000     
 
 custs = Customers("Maryam Azar", 3000)
-print(cust) #implicitly calls repr      
+print(custs) #implicitly calls repr      
 
 #Retruns the folowing:
 # Customers('Maryam Azar', 3000)
