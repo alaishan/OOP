@@ -25,8 +25,8 @@ class Employee:
         
 emp = Employee("Shreya K", 3500)
 print(emp.salary) #access the property
-emp.salary = 6000 # assigns a value to the salary using the @salary.setter property
-#emp1.salary = -300 # raises exception
+#emp.salary = 6000 # assigns a value to the salary using the @salary.setter property
+emp.salary = -300 # raises exception
 
 # without @attr.setter property, creates read only data
 # @attr.getter used when property value is being retrieved
